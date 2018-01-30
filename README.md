@@ -1,39 +1,9 @@
-# socket-task
+# Problem
 
-FIXME: Write a one-line description of your library/project.
+## Калькулятор
+На хосте `rpn.javascript.ninja`, порт `8080` расположен Websocket. Ваша задача подключиться к нему. Время пошло! Сервер вам пришлет задачу, которую необходимо посчитать - выражение в [обратной польской записи](https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C). Ваша задача - вычислить его, и отправить в websocket одно число - ответ на поставленную задачу. Если ваш код решит **60** задач за **60** секунд - вы получите в ответе сервера токен.
 
-## Overview
+В течении 48 часов после [регистрации](https://docs.google.com/forms/u/2/d/e/1FAIpQLSfuPxt-8s4uGOGS8yFq_FAaAbRq8lRKdwo4t7_2m1A75S1Wqw/viewform) вы должны были получить (или получите) ссылку на оплату - введите токен в поле для скидки. Вуаля ;) - скидка готова
 
-FIXME: Write a paragraph about the library/project and highlight its goals.
-
-## Setup
-
-To get an interactive development environment run:
-
-    lein figwheel
-
-and open your browser at [localhost:3449](http://localhost:3449/).
-This will auto compile and send all changes to the browser without the
-need to reload. After the compilation process is complete, you will
-get a Browser Connected REPL. An easy way to try it is:
-
-    (js/alert "Am I connected?")
-
-and you should see an alert in the browser window.
-
-To clean all compiled files:
-
-    lein clean
-
-To create a production build run:
-
-    lein do clean, cljsbuild once min
-
-And open your browser in `resources/public/index.html`. You will not
-get live reloading, nor a REPL. 
-
-## License
-
-Copyright © 2014 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
+## Souce
+[Gist with problem description](https://gist.github.com/xanf/9ba79800a4d1c0edc510f9dc4d0fa56e)
